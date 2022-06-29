@@ -1,0 +1,27 @@
+函数名              函数中参数个数      函数返回类型        函数符号表地址      
+input              0                 -                 0x00E159FC            
+output             0                 -                 0x00E1B1E0            
+gcd                3                 int               0x00E209C4            
+main               9                 void              0x00E261A8            
+
+函数名:input	符号表地址:0x00E159FC
+
+函数名:output	符号表地址:0x00E1B1E0
+
+函数名:gcd	符号表地址:0x00E209C4
+变量名              属性                类型                地址                
+u                  VARIABLE           int                00000000            
+v                  VARIABLE           int                00000000            
+gcd                IDF                -                  00E209C4            
+
+函数名:main	符号表地址:0x00E261A8
+变量名              属性                类型                地址                
+x                  ARRAY              int                00000000            
+z                  ARRAY              char               00000000            
+ch                 ARRAY              char               00000000            
+i                  VARIABLE           int                00000000            
+y                  ARRAY              int                00000000            
+j                  VARIABLE           int                00000000            
+input              IDF                -                  00E159FC            
+output             IDF                -                  00E1B1E0            
+gcd                IDF                -                  00E209C4            

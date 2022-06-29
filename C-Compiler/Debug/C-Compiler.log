@@ -1,0 +1,14 @@
+﻿  global.cpp
+  grammar-analysis.cpp
+E:\VS2019-workspace\lesson-Compilers\C-Compiler\C-Compiler\grammar-analysis.cpp(216,15): warning C4101: “k”: 未引用的局部变量
+  lexical-analysis.cpp
+  main.cpp
+  optimize.cpp
+E:\VS2019-workspace\lesson-Compilers\C-Compiler\C-Compiler\optimize.cpp(99,15): warning C4018: “<”: 有符号/无符号不匹配
+  pretreat.cpp
+  symbol.cpp
+  正在生成代码...
+E:\VS2019-workspace\lesson-Compilers\C-Compiler\C-Compiler\symbol.cpp(36): warning C4715: “getProperty”: 不是所有的控件路径都返回值
+E:\VS2019-workspace\lesson-Compilers\C-Compiler\C-Compiler\symbol.cpp(29): warning C4715: “getType”: 不是所有的控件路径都返回值
+E:\VS2019-workspace\lesson-Compilers\C-Compiler\C-Compiler\grammar-analysis.cpp(42): warning C4715: “getVarType”: 不是所有的控件路径都返回值
+  C-Compiler.vcxproj -> E:\VS2019-workspace\lesson-Compilers\C-Compiler\Debug\C-Compiler.exe

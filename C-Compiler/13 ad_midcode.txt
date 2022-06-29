@@ -1,0 +1,64 @@
+基本块入口:
+100
+104
+103
+106
+113
+120
+119
+134
+117
+140
+139
+148
+137
+100 Prog gcd 
+101 T0 := v == 0 
+102 if T0==1 Goto 104 
+103 Goto 106 
+104 return u 
+105 Goto 113 
+106 T1 := v * v 
+107 T2 := u / T1 
+108 T3 := u - T2 
+109 param v 
+110 param T3 
+111 T4 := call gcd 
+112 return T4 
+113 Prog main 
+114 i := 0 
+115 ch[0] := z[0] 
+116 ch[1] := z[1] 
+117 T5 := 1.000000 
+118 if T5==1 Goto 120 
+119 Goto 134 
+120 T6 := call input 
+121 x[i] := T6 
+122 T7 := i + 1 
+123 T8 := call input 
+124 x[T7] := T8 
+125 T9 := i + 1 
+126 param x[i] 
+127 param x[T9] 
+128 T10 := call gcd 
+129 param T10 
+130 T11 := call output 
+131 T12 := i + 1 
+132 i := T12 
+133 Goto 117 
+134 j := 1 
+135 T13 := call input 
+136 y[0] := T13 
+137 T14 := 1.000000 
+138 if T14==1 Goto 140 
+139 Goto 148 
+140 T15 := call input 
+141 y[j] := T15 
+142 T16 := j - 1 
+143 T17 := y[T16] + y[j] 
+144 y[j] := T17 
+145 T18 := j + 1 
+146 j := T18 
+147 Goto 137 
+148 param y[2] 
+149 T19 := call output 
